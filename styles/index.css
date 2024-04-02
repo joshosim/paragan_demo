@@ -18,7 +18,10 @@
     text-decoration: none;
 }
 
-button {
+button,
+input,
+label {
+    display: block;
     font: inherit;
 }
 
