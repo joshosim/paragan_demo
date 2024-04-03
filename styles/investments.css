@@ -52,13 +52,20 @@ body {
     border-radius: 0.25rem;
     padding: 0.5rem;
     font-weight: 600;
-    color: white;
+
     position: absolute;
     right: 0;
     bottom: 0;
     margin: 0.75rem;
     background-color: black;
 }
+
+.invest-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 .text_two {
     display: flex;
