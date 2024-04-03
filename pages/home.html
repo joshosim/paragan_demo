@@ -12,13 +12,15 @@
 <body>
     <nav class="navbar">
         <img style="width: 4rem;" src='../img/IMG-20240321-WA0002.jpg' alt="/" />
-        <div>Menu</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/dashboard">Dashboard</a></li>
-        </ul>
+        <div class="dropdown">
+            <img class="dropbtn" style="width: 2.5rem;padding-right: 4px;" src="../img/menu-svgrepo-com.svg" alt="/">
+            <div class="dropdown-content">
+                <a href="../pages/home.html">Home</a>
+                <a href="#about">About</a>
+                <a href="../pages/contact.html">Contact</a>
+                <a href="../pages/dashboard.html">Dashboard</a>
+            </div>
+        </div>
     </nav>
     <div class="home">
         <div class="home-landing"
@@ -31,9 +33,7 @@
                         </h2>
                         <h4 class="home-text-slang">Trading made easy</h4>
 
-                        <button type="button"
-                            class="rounded font-bold border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-sm uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-                            data-twe-ripple-init data-twe-ripple-color="light">
+                        <button type="button" class="btn" style="margin: 0 auto;">
                             <a href="../pages/investments.html" style="text-decoration: none;"> Invest</a>
                         </button>
 
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="home-containers" style="background-color: white;">
+        <div class="about home-containers" style="background-color: white; ">
             <h1 class="sub-title">Who we are</h1>
             <p class="sub-title-text">
                 Paragon Prime Investment (PPI) is a reliable and secure investment

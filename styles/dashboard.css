@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    width: 65%;
+
+}
+
+.image img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 4px solid black;
+    margin: 1rem auto;
+}
+
+.name,
+.phone {
+    padding-left: 1.25rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
