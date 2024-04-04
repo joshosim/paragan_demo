@@ -1,3 +1,7 @@
+body {
+    font-family: 'Quicksand';
+}
+
 .navbar {
     overflow: hidden;
     display: flex;
@@ -66,6 +70,26 @@ label {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+form {
+    display: grid;
+    place-items: center;
+}
+
+label {
+    margin: .5rem 0;
+    font-weight: bold;
+}
+
+input {
+    padding: .5rem;
+    width: 60%;
+}
+
+.submitBtn {
+    margin: .5rem 0;
+    padding: .5rem 1rem;
 }
 
 .footer {
