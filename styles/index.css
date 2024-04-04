@@ -2,6 +2,10 @@ body {
     font-family: 'Quicksand';
 }
 
+.hidden {
+    display: none;
+}
+
 .navbar {
     overflow: hidden;
     display: flex;
@@ -75,6 +79,7 @@ label {
 form {
     display: grid;
     place-items: center;
+    height: 60vh;
 }
 
 label {
@@ -90,6 +95,18 @@ input {
 .submitBtn {
     margin: .5rem 0;
     padding: .5rem 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.buttons button {
+    border: none;
+    background-color: transparent;
 }
 
 .footer {

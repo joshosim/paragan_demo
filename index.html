@@ -26,7 +26,7 @@
         </div>
     </nav>
     <div>
-        <form action="./pages/home.html">
+        <form action="./pages/home.html" id="login">
             <h1>Login</h1>
             <label for="username">Username</label>
             <input type="text" placeholder="Username">
@@ -34,7 +34,7 @@
             <input type="password" placeholder="Password">
             <button class="submitBtn">Login</button>
         </form>
-        <form action="./pages/home.html">
+        <form action="./pages/home.html" id="signup" class="hidden">
             <h1>Signup</h1>
             <label for="username">Username</label>
             <input type="text" placeholder="Username">
@@ -44,7 +44,10 @@
             <input type="password" placeholder="Password">
             <button class="submitBtn">Signup</button>
         </form>
-
+        <div class="buttons">
+            <button id="loginBtn">Login</button>
+            <button id="signupBtn">Signup</button>
+        </div>
     </div>
     <footer class="footer">
         <div>
